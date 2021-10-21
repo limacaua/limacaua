@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg {
+  background-image: url("/assets/bg-03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.texto-home {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  color: white;
+}
+
+.logo {
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.info-home {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.button-grid {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  align-self: baseline;
+}

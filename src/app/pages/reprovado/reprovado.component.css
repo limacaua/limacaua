@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg {
+  background-image: url("/assets/bg-03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  grid-row-start: 3;
+  text-align: center;
+  align-self: center;
+}
+
+.icone-negado {
+  grid-row-start: 2;
+  align-self: end;
+  justify-self: center;
+}
+
+

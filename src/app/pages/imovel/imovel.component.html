@@ -1,0 +1,32 @@
+<main class="container bg">
+  <div class="logo">
+    <img src="assets/logo-financiamento-04.png" alt="Logo Só Vamu" width="100px" />
+  </div>
+  <h1 class="h1">
+    Dados Imóvel
+  </h1>
+  <form class="form-grid">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" id="Tipo-do-Imovel" placeholder="Tipo do imóvel: Residencial/Comercial">
+      </div>
+      <div class="form-group col-md-6 mt-3">
+        <input type="text" mask="separator" prefix="R$ " thousandSeparator="." suffix=",00" class="form-control" id="Valor-do-Imovel" placeholder="Valor do imóvel">
+      </div>
+    </div>
+    <div class="form-group col-md-6 mt-3">
+      <input type="number" suffix=" vezes" mask="000" class="form-control" id="Quantas-parcelas" placeholder="Em quantas parcelas deseja pagar?">
+    </div>
+    <div class="form-group col-md-6 mt-3">
+      <input type="number" mask="separator" prefix="R$ " thousandSeparator="." suffix=",00" class="form-control" id="Renda-mensal" placeholder="Renda mensal">
+    </div>
+    <div class="form-group col-md-6 mt-3">
+      <input type="number" mask="separator" prefix="R$ " thousandSeparator="." suffix=",00" class="form-control" id="Valor-da-entrada" placeholder="Valor da entrada">
+    </div>
+
+    <button type="submit" class="btn btn-warning mt-3">Cancelar</button>
+    <button type="submit" class="btn btn-success mt-3">Simular</button>
+
+  </form>
+
+</main>
